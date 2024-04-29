@@ -80,8 +80,8 @@ function sendEmail() {
 
     Email.send({
         SecureToken: "a5e9a850-d900-4eb8-8c02-c70a19f78290",
-        To: 'ahmadou.diaw.sio@gmail.com',
-        From: "ahmadou.diaw.sio@gmail.com",
+        To: 'ahmadoudiawdiaw@gmail.com',
+        From: "ahmadoudiawdiaws@gmail.com",
         Subject: subject.value,
         Body: bodyMessage
     }).then(
