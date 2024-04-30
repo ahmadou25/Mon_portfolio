@@ -333,95 +333,47 @@ span {
     padding-bottom: 7rem;
 }
 
-/* //////////////////////contact////////////// */
-.contact{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background: #1f242d;
-}
 .contact h2 {
-    font-size: 40px;
-    color: #ededed;
-    text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 3rem;
 }
 
 .contact form {
-    width: 600px;
+    max-width: 70rem;
+    margin: 1rem auto;
     text-align: center;
+    margin-bottom: 3rem;
 }
 
-form .input-box {
+.contact form .input-box {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-.input-box .input-field {
-    width: 48.5%;
-}
-
-.field .item {
+.contact form .input-box input,
+.contact form textarea {
     width: 100%;
-    padding: 18px;
-    background: transparent;
-    border: 2px solid #0ef;
-    outline: none;
-    border-radius: 6px;
-    font-size: 16px;
-    color: #ededed;
-    margin: 12px 0;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    color: var(--text-color);
+    background: var(--second-bg-color);
+    border-radius: .8rem;
+    margin: .7rem 0;
 }
 
-.field.error .item {
-    border-color: #d93025;
+.contact form .input-box input {
+    width: 49%;
 }
 
-.field .item::placeholder {
-    color: rgba(255, 255, 255, .3);
-}
-
-.field .error-txt {
-    font-size: 14.5px;
-    color: #d93025;
-    text-align: left;
-    margin: -5px 0 10px;
-    display: none;
-}
-
-.field.error .error-txt {
-    display: block;
-}
-
-form .textarea-field .item {
+.contact form textarea {
     resize: none;
 }
 
-form .textarea-field .error-txt {
-    margin-top: -10px;
-}
-
-form button {
-    padding: 12px 32px;
-    background: #0ef;
-    border: none;
-    outline: none;
-    border-radius: 6px;
-    box-shadow: 0 0 10px #0ef;
-    font-size: 16px;
-    color: #333;
-    letter-spacing: 1px;
-    font-weight: 600;
+.contact form .btn {
+    margin-top: 2rem;
     cursor: pointer;
-    margin-top: 20px;
-    transition: .5s;
 }
 
-form button:hover {
-    box-shadow: none;
-}
 .footer {
     display: flex;
     justify-content: space-between;
